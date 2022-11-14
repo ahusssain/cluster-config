@@ -10,3 +10,4 @@ resources:
   - ../../components/argocd/ingress
   #- ../../components/argocd/image-registry
   - ../../components/argocd/certificates
+  - ../../components/argocd/storage-classes2

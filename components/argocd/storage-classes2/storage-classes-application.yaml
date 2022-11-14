@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: cluster-config-certificates
+  name: cluster-config-storage-classes2
   namespace: openshift-gitops
 spec:
   destination:
@@ -9,9 +9,9 @@ spec:
     server: 'https://kubernetes.default.svc'
   project: cluster-config
   source:
-    path: components/apps/cluster-config/certificates
-    repoURL: https://github.com/ahusssain/cluster-config.git
-    targetRevision: master
+    path: components/apps/cluster-config/storage-classes2
+    repoURL: https://github.com/ahusssain/cluster-config
+    targetRevision: testing
   syncPolicy:
     automated:
       selfHeal: true
