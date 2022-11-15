@@ -11,7 +11,7 @@ spec:
   source:
     path: clusters/redcomet.ca/
     repoURL: https://github.com/ahusssain/cluster-config
-    targetRevision: master
+    targetRevision: testing
   syncPolicy:
     automated:
       prune: true
